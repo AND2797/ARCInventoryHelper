@@ -1,5 +1,5 @@
 import os
-def load_items(path="data/items.txt"):
+def load_items(path=os.path.join(os.getcwd(), 'utils', 'recycle_items.txt')):
     if not os.path.exists(path):
         return []
 
