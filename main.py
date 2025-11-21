@@ -6,10 +6,11 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QStyle, QWidget, QHBoxLay
 from PyQt6.QtCore import Qt, QSize, QPropertyAnimation, QRect, QEasingCurve
 from utils.loader import load_items
  # TODO:
- # [ ] How to make it more user friendly?
- # [ ] Include images?
- # [ ] Quest details?
- # [ ] Descriptions?
+ # [ ] JSON file to keep details of item
+#       [ ] What quests used for, how many required
+#       [ ] Keep or recycle?
+#       [ ] Colour coded
+# [ ] Fuzzy search by tags?
 class CustomTitleBar(QWidget):
     def __init__(self  , parent):
         super().__init__(parent)
