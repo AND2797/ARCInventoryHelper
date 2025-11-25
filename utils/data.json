@@ -1,0 +1,845 @@
+{
+  "ArcRaiderItems": [
+    {
+      "Name": "Metal Parts",
+      "Description": "Basic material. Used in almost all crafting, especially for mechanical and protective gear.",
+      "Parents": [
+        "Mechanical Components (Crafting - 7x)",
+        "Gunsmith (L1) Upgrade (20x)",
+        "Barricade Kit (Crafting)",
+        "Expeditions (Stage 1 - 230x)"
+      ],
+      "Children": [
+        "None (Base Material)"
+      ],
+      "Usage": "Base Material, Core Resource"
+    },
+    {
+      "Name": "Rubber Parts",
+      "Description": "Basic material. Used for gear, medical items, and non-metal components.",
+      "Parents": [
+        "Mechanical Components (Crafting - 3x)",
+        "Refiner (L1) Upgrade (20x)",
+        "Remote Raider Flare (Crafting)",
+        "Expeditions (Stage 1 - 280x)"
+      ],
+      "Children": [
+        "None (Base Material)"
+      ],
+      "Usage": "Base Material, Core Resource"
+    },
+    {
+      "Name": "Plastic Parts",
+      "Description": "Basic material. Used for electronic casing, utility items, and general components.",
+      "Parents": [
+        "Electrical Components (Crafting - 3x)",
+        "Gear Bench (L1) Upgrade (25x)",
+        "Defibrillator (Crafting - 9x)",
+        "Expeditions (Stage 1 - 150x)"
+      ],
+      "Children": [
+        "None (Base Material)"
+      ],
+      "Usage": "Base Material, Core Resource"
+    },
+    {
+      "Name": "Fabric",
+      "Description": "Basic material. Used for cloth-based items, gear, and medical supplies.",
+      "Parents": [
+        "Durable Cloth (Crafting - 6x)",
+        "Medical Lab (L1) Upgrade (50x)",
+        "Bandage (Crafting)",
+        "Expeditions (Stage 1 - 80x)"
+      ],
+      "Children": [
+        "None (Base Material)"
+      ],
+      "Usage": "Base Material, Core Resource"
+    },
+    {
+      "Name": "Chemicals",
+      "Description": "Basic liquid material. Used for explosives, consumables, and medical concoctions.",
+      "Parents": [
+        "Light Stick (Crafting - 3x)",
+        "Smoke Grenade (Crafting - 14x)",
+        "Antiseptic (Crafting - 10x)",
+        "Explosive Compound (Crafting)"
+      ],
+      "Children": [
+        "None (Base Material)"
+      ],
+      "Usage": "Base Material, Core Resource for Consumables"
+    },
+    {
+      "Name": "Wires",
+      "Description": "Basic electrical material. Used in all electronic and advanced component crafting.",
+      "Parents": [
+        "Advanced Electrical Components (Crafting - 1x)",
+        "Advanced Mechanical Components (Crafting - 1x)",
+        "Tactical Mk. 1 (Crafting)",
+        "Expeditions (Stage 2 - 30x)"
+      ],
+      "Children": [
+        "None (Base Material)"
+      ],
+      "Usage": "Base Material, Core Resource for Electronics"
+    },
+    {
+      "Name": "Oil",
+      "Description": "Basic industrial fluid. Used to craft fuel and other chemical compounds.",
+      "Parents": [
+        "Synthesized Fuel (Crafting - 5x)",
+        "Refiner Upgrades",
+        "Expeditions"
+      ],
+      "Children": [
+        "Chemicals (x3)"
+      ],
+      "Usage": "Base Material, Refiner Resource"
+    },
+    {
+      "Name": "Mechanical Components",
+      "Description": "Refined mechanical material. Used for mid-tier weapons, mods, and upgrades.",
+      "Parents": [
+        "Advanced Mechanical Components (Crafting - 2x)",
+        "Gunsmith (L2) Upgrade (5x)",
+        "Mod Components (Crafting)",
+        "Barricade Kit (Crafting)"
+      ],
+      "Children": [
+        "Metal Parts (x3)",
+        "Rubber Parts (x2)"
+      ],
+      "Usage": "Refined Material, Mid-Tier Upgrades/Crafting"
+    },
+    {
+      "Name": "Electrical Components",
+      "Description": "Refined electronic material. Used for tactical tools and mid-tier upgrades.",
+      "Parents": [
+        "Advanced Electrical Components (Crafting - 1x)",
+        "Gear Bench (L2) Upgrade (5x)",
+        "Jolt Mine (Crafting - 1x)",
+        "Expeditions (Stage 2 - 30x)"
+      ],
+      "Children": [
+        "Plastic Parts (x3)",
+        "Rubber Parts (x3)"
+      ],
+      "Usage": "Refined Material, Mid-Tier Upgrades/Crafting"
+    },
+    {
+      "Name": "Advanced Mechanical Components",
+      "Description": "High-tier mechanical material. Used to craft advanced weapons and top-tier upgrades.",
+      "Parents": [
+        "Gunsmith (L3) Upgrade (5x)",
+        "Hullcracker (Crafting)",
+        "Heavy Armor Blueprint (Crafting)",
+        "Surveyor Vault (Recycle)"
+      ],
+      "Children": [
+        "Mechanical Components (x1)",
+        "Wires (x1)"
+      ],
+      "Usage": "Advanced Material, Top-Tier Upgrades/Crafting"
+    },
+    {
+      "Name": "Advanced Electrical Components",
+      "Description": "High-tier electronic material. Used for advanced gear and top-tier upgrades.",
+      "Parents": [
+        "Gear Bench (L3) Upgrade (5x)",
+        "Showstopper (Crafting - 1x)",
+        "Tactical Mk. 3 (Crafting)",
+        "Surveyor Vault (Recycle)"
+      ],
+      "Children": [
+        "Electrical Components (x1)",
+        "Wires (x1)"
+      ],
+      "Usage": "Advanced Material, Top-Tier Upgrades/Crafting"
+    },
+    {
+      "Name": "Durable Cloth",
+      "Description": "Refined fabric. Used to craft protective gear and medical items.",
+      "Parents": [
+        "Medical Lab (L2) Upgrade (5x)",
+        "Medkit (Crafting)",
+        "Doctor's Orders Quest (1x)",
+        "Expeditions (Stage 2 - 25x)"
+      ],
+      "Children": [
+        "Fabric (x6)"
+      ],
+      "Usage": "Refined Material, Expedition Resource, Quest Item"
+    },
+    {
+      "Name": "Crude Explosives",
+      "Description": "Refined chemical material. Used to craft all ordnance.",
+      "Parents": [
+        "Explosives Station (L2) Upgrade (5x)",
+        "Grenade (Crafting)",
+        "Explosive Compound (Crafting)",
+        "Incendiary Grenade (Crafting)"
+      ],
+      "Children": [
+        "Chemicals (x3)"
+      ],
+      "Usage": "Refined Material, Building Upgrade, Ordnance Crafting"
+    },
+    {
+      "Name": "Antiseptic",
+      "Description": "Used to craft medical supplies. Found in Medical areas.",
+      "Parents": [
+        "Medical Lab (L3) Upgrade (8x)",
+        "Doctor's Orders Quest (2x)",
+        "Trauma Kit (Crafting)"
+      ],
+      "Children": [
+        "Chemicals (x10)"
+      ],
+      "Usage": "Refined Material, Quest Item, Building Upgrade"
+    },
+    {
+      "Name": "Sensors",
+      "Description": "Used in complex electronics and stealth components.",
+      "Parents": [
+        "Looting Mk. 2 (Crafting)",
+        "Utility Station Upgrades",
+        "Expeditions (Stage 3 - 20x)",
+        "Snitch Scanner (Recycle)"
+      ],
+      "Children": [
+        "Wires (x2)"
+      ],
+      "Usage": "Refined Material, Expedition Resource"
+    },
+    {
+      "Name": "Processor",
+      "Description": "Used in advanced electronic upgrades and high-tier gear.",
+      "Parents": [
+        "Utility Station (L4) Upgrade (3x)",
+        "High-tier electronic mods",
+        "Broken Guidance System (Recycle)"
+      ],
+      "Children": [
+        "Electrical Components (x2)"
+      ],
+      "Usage": "Advanced Component, Upgrades"
+    },
+    {
+      "Name": "ARC Alloy",
+      "Description": "A base ARC material. Obtained from ARC enemies or by recycling certain ARC parts.",
+      "Parents": [
+        "Workshop (L1) Upgrade (18x)",
+        "Expeditions (Stage 1 - 80x)",
+        "ARC Circuitry (Crafting)",
+        "ARC Motion Core (Crafting)"
+      ],
+      "Children": [
+        "Metal Parts (x2)"
+      ],
+      "Usage": "Core ARC Material, Workshop/Expedition Resource"
+    },
+    {
+      "Name": "ARC Powercell",
+      "Description": "Valuable ARC drop. Used to craft energy-based items and high-tier upgrades.",
+      "Parents": [
+        "Refiner (L1) Upgrade (5x)",
+        "Shield Recharger (Crafting - 2x)",
+        "Advanced ARC Powercell (Crafting)"
+      ],
+      "Children": [
+        "None (Cannot be recycled)"
+      ],
+      "Usage": "Topside ARC Material, Crafting Ingredient"
+    },
+    {
+      "Name": "ARC Motion Core",
+      "Description": "ARC drop. Used to craft components and gear, especially early shields.",
+      "Parents": [
+        "Refiner (L2) Upgrade (8x)",
+        "Mod Components (Crafting - 1x)",
+        "Bastion Cell (Recycle)",
+        "Wasp Driver (Recycle)"
+      ],
+      "Children": [
+        "ARC Alloy (x2)"
+      ],
+      "Usage": "Topside ARC Material, Crafting Ingredient"
+    },
+    {
+      "Name": "ARC Circuitry",
+      "Description": "Refined ARC material. Used for high-tier upgrades and crafting.",
+      "Parents": [
+        "Workshop (L4) Upgrade (10x)",
+        "Refiner (L3) Upgrade (5x)",
+        "Advanced Materials (Crafting)"
+      ],
+      "Children": [
+        "ARC Alloy (x2)"
+      ],
+      "Usage": "Topside ARC Material, Workshop Upgrade"
+    },
+    {
+      "Name": "Wasp Driver",
+      "Description": "Drops from Wasp ARC machines. Quest/Upgrade item.",
+      "Parents": [
+        "The Trifecta Quest (3x)",
+        "Wasps and Hornets Quest (3x)",
+        "Gunsmith (L2) Upgrade (10x)"
+      ],
+      "Children": [
+        "ARC Motion Core (x2)",
+        "ARC Alloy (x2)"
+      ],
+      "Usage": "Quest Item, Building Upgrade"
+    },
+    {
+      "Name": "Hornet Driver",
+      "Description": "Drops from Hornet ARC machines. Quest/Upgrade item.",
+      "Parents": [
+        "The Trifecta Quest (3x)",
+        "Wasps and Hornets Quest (3x)",
+        "Gear Bench (L2) Upgrade (7x)"
+      ],
+      "Children": [
+        "ARC Motion Core (x2)",
+        "ARC Alloy (x2)"
+      ],
+      "Usage": "Quest Item, Building Upgrade"
+    },
+    {
+      "Name": "Snitch Scanner",
+      "Description": "Drops from Snitch ARC machines. Quest/Upgrade item.",
+      "Parents": [
+        "The Trifecta Quest (2x)",
+        "Medical Lab (L2) Upgrade (3x)",
+        "Utility Station (L4) Upgrade (8x)"
+      ],
+      "Children": [
+        "Sensors (x5)",
+        "Wires (x3)"
+      ],
+      "Usage": "Quest Item, Building Upgrade"
+    },
+    {
+      "Name": "Surveyor Vault",
+      "Description": "Drops from Surveyor ARC machines. High-tier upgrade item.",
+      "Parents": [
+        "Workshop (L4) Upgrade (6x)",
+        "Refiner (L4) Upgrade (3x)",
+        "Quest Item (Various)"
+      ],
+      "Children": [
+        "Advanced Electrical Components (x2)",
+        "Advanced Mechanical Components (x2)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Bastion Cell",
+      "Description": "Drops from Bastion ARC machines. Used for high-tier upgrades.",
+      "Parents": [
+        "Gear Bench (L3) Upgrade (6x)",
+        "Advanced Gear Blueprints"
+      ],
+      "Children": [
+        "ARC Motion Core (x2)",
+        "Advanced Mechanical Components (x2)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Bombardier Cell",
+      "Description": "Drops from Bombardier ARC machines. High-tier upgrade item.",
+      "Parents": [
+        "Refiner (L3) Upgrade (6x)",
+        "Explosives Station Upgrades"
+      ],
+      "Children": [
+        "Advanced Mechanical Components (x2)",
+        "ARC Alloy (x2)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Sentinel Firing Core",
+      "Description": "Drops from Sentinel ARC machines. Used for upgrades.",
+      "Parents": [
+        "Workshop (L5) Upgrade (5x)",
+        "High-tier weapon crafting"
+      ],
+      "Children": [
+        "Advanced Mechanical Components (x1)",
+        "ARC Circuitry (x1)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Pop Trigger",
+      "Description": "Drops from Pop ARC machines. Used for upgrades.",
+      "Parents": [
+        "Explosives Station (L3) Upgrade (4x)"
+      ],
+      "Children": [
+        "Crude Explosives (x4)",
+        "ARC Alloy (x1)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Tick Pod",
+      "Description": "Drops from Tick ARC machines. Used for upgrades.",
+      "Parents": [
+        "Medical Lab (L4) Upgrade (3x)"
+      ],
+      "Children": [
+        "Chemicals (x10)",
+        "ARC Flex Rubber (x1)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Leaper Pulse Unit",
+      "Description": "Drops from Leaper ARC machines. High-tier item.",
+      "Parents": [
+        "Expeditions (Stage 4 - 3x)",
+        "Utility Station Upgrades"
+      ],
+      "Children": [
+        "Sensors (x5)",
+        "Advanced Electrical Components (x1)"
+      ],
+      "Usage": "Expedition Material, Quest Item"
+    },
+    {
+      "Name": "Rusted Gear",
+      "Description": "Found in mechanical areas. Used for Gunsmith upgrades.",
+      "Parents": [
+        "Gunsmith (L3) Upgrade (3x)"
+      ],
+      "Children": [
+        "Mechanical Components (x2)",
+        "Metal Parts (x4)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Rusted Tools",
+      "Description": "Found in mechanical areas. Used for Gunsmith upgrades.",
+      "Parents": [
+        "Gunsmith (L2) Upgrade (3x)"
+      ],
+      "Children": [
+        "Metal Parts (x4)",
+        "Mechanical Components (x1)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Cracked Bioscanner",
+      "Description": "Found in Medical locations. Used for upgrades.",
+      "Parents": [
+        "Medical Lab (L3) Upgrade (2x)"
+      ],
+      "Children": [
+        "Rubber Parts (x3)",
+        "Battery (x5)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Rusted Shut Medical Kit",
+      "Description": "Found in medical areas. Used for Medical Lab upgrades.",
+      "Parents": [
+        "Medical Lab (L3) Upgrade (3x)"
+      ],
+      "Children": [
+        "Fabric (x10)",
+        "Antiseptic (x1)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Toaster",
+      "Description": "Household appliance. Used for Refiner upgrades.",
+      "Parents": [
+        "Refiner (L2) Upgrade (3x)"
+      ],
+      "Children": [
+        "Plastic Parts (x5)",
+        "Wires (x3)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Fried Motherboard",
+      "Description": "Damaged electronic part. Used for Utility Station upgrades.",
+      "Parents": [
+        "Utility Station (L3) Upgrade (3x)"
+      ],
+      "Children": [
+        "Electrical Components (x1)",
+        "Plastic Parts (x5)"
+      ],
+      "Usage": "Workshop/Building Upgrade"
+    },
+    {
+      "Name": "Cooling Fan",
+      "Description": "Electronic component. Used for Expedition projects.",
+      "Parents": [
+        "Expeditions (Stage 2 - 5x)",
+        "Utility Station Upgrades"
+      ],
+      "Children": [
+        "Plastic Parts (x14)",
+        "Battery (x4)"
+      ],
+      "Usage": "Expedition Material, Recyclable"
+    },
+    {
+      "Name": "Battery",
+      "Description": "Electronics found in Technological/Electrical areas.",
+      "Parents": [
+        "Trash into Treasure Quest (3x)",
+        "Expeditions (Stage 3 - 30x)",
+        "Jolt Mine (Crafting)"
+      ],
+      "Children": [
+        "Metal Parts (x2)"
+      ],
+      "Usage": "Quest Item, Expedition Resource, Crafting Material"
+    },
+    {
+      "Name": "Simple Gun Parts",
+      "Description": "Found in Security areas. Used to craft basic weapon mods.",
+      "Parents": [
+        "Basic weapon mod crafting"
+      ],
+      "Children": [
+        "Metal Parts (x5)"
+      ],
+      "Usage": "Crafting Material"
+    },
+    {
+      "Name": "Complex Gun Parts",
+      "Description": "Found in Security areas. Used to craft advanced weapon mods.",
+      "Parents": [
+        "Advanced weapon mod crafting"
+      ],
+      "Children": [
+        "Mechanical Components (x2)",
+        "Metal Parts (x5)"
+      ],
+      "Usage": "Crafting Material"
+    },
+    {
+      "Name": "Duct Tape",
+      "Description": "Common supply for repairs and crafting weapon mods.",
+      "Parents": [
+        "Stable Stock II/III (Crafting)",
+        "Angled Grip II/III (Crafting)",
+        "Advanced Materials (Crafting)"
+      ],
+      "Children": [
+        "Fabric (x3)"
+      ],
+      "Usage": "Topside Material, Mod Crafting"
+    },
+    {
+      "Name": "Canister",
+      "Description": "A container. Found in various locations.",
+      "Parents": [
+        "Bicycle Pump (Recycle)"
+      ],
+      "Children": [
+        "Plastic Parts (x3)"
+      ],
+      "Usage": "Recyclable for Plastic"
+    },
+    {
+      "Name": "Agave",
+      "Description": "A desert plant. Used in provision and Celeste crafting.",
+      "Parents": [
+        "Celeste's Upgrades",
+        "Provision crafting"
+      ],
+      "Children": [
+        "Chemicals (x2)"
+      ],
+      "Usage": "Nature Material, Provision Crafting"
+    },
+    {
+      "Name": "Great Mullein",
+      "Description": "A medicinal plant. Required for a specific quest.",
+      "Parents": [
+        "Doctor's Orders Quest (3x)"
+      ],
+      "Children": [
+        "Fabric (x3)"
+      ],
+      "Usage": "Quest Item, Nature Material"
+    },
+    {
+      "Name": "Lemon",
+      "Description": "A citrus fruit. Used in provision crafting.",
+      "Parents": [
+        "Provision crafting"
+      ],
+      "Children": [
+        "Chemicals (x1)"
+      ],
+      "Usage": "Nature Material, Provision Crafting"
+    },
+    {
+      "Name": "Olives",
+      "Description": "Used in provision crafting.",
+      "Parents": [
+        "Provision crafting"
+      ],
+      "Children": [
+        "Chemicals (x1)"
+      ],
+      "Usage": "Nature Material, Provision Crafting"
+    },
+    {
+      "Name": "Assorted Seeds",
+      "Description": "Used for Celeste's upgrades and recipes.",
+      "Parents": [
+        "Celeste's Upgrades",
+        "Provision crafting"
+      ],
+      "Children": [
+        "Fabric (x1)"
+      ],
+      "Usage": "Base Nature Material, Celeste Vendor Resource"
+    },
+    {
+      "Name": "Dog Collar",
+      "Description": "A pet collar. A Scrappy quest item.",
+      "Parents": [
+        "Scrappy Upgrades (L2 - 1x)"
+      ],
+      "Children": [
+        "Fabric (x8)",
+        "Metal Parts (x1)"
+      ],
+      "Usage": "Quest Item (Scrappy Upgrade)"
+    },
+    {
+      "Name": "Cat Bed",
+      "Description": "A plush bed. A Scrappy quest item.",
+      "Parents": [
+        "Scrappy Upgrades (L4 - 1x)"
+      ],
+      "Children": [
+        "Fabric (x12)"
+      ],
+      "Usage": "Quest Item (Scrappy Upgrade)"
+    },
+    {
+      "Name": "Very Comfortable Pillow",
+      "Description": "A fluffy pillow. A high-tier Scrappy quest item.",
+      "Parents": [
+        "Scrappy Upgrades (L5 - 3x)"
+      ],
+      "Children": [
+        "Fabric (x12)"
+      ],
+      "Usage": "Quest Item (Scrappy Upgrade)"
+    },
+    {
+      "Name": "Faded Photograph",
+      "Description": "A sentimental item. Quest or Trinket.",
+      "Parents": [
+        "Quest Item (Various)"
+      ],
+      "Children": [
+        "Plastic Parts (x2)",
+        "Fabric (x1)"
+      ],
+      "Usage": "Quest Item, Trinket"
+    },
+    {
+      "Name": "Film Reel",
+      "Description": "Used to craft consumables or a quest item.",
+      "Parents": [
+        "Movie Night Quest (1x)"
+      ],
+      "Children": [
+        "Plastic Parts (x6)"
+      ],
+      "Usage": "Quest Item, Recyclable"
+    },
+    {
+      "Name": "Camera Lens",
+      "Description": "A security component.",
+      "Parents": [
+        "Movie Night Quest (1x)"
+      ],
+      "Children": [
+        "Plastic Parts (x8)"
+      ],
+      "Usage": "Quest Item, Recyclable"
+    },
+    {
+      "Name": "Broken Guidance System",
+      "Description": "Industrial electronic item. Safe to recycle.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Processor (x4)"
+      ],
+      "Usage": "Recyclable for Processors"
+    },
+    {
+      "Name": "Industrial Magnet",
+      "Description": "A strong magnet. Safe to recycle.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Magnet (x2)",
+        "Metal Parts (x5)"
+      ],
+      "Usage": "Recyclable for Magnet"
+    },
+    {
+      "Name": "Alarm Clock",
+      "Description": "Household item. Safe to recycle.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Processor (x1)",
+        "Plastic Parts (x6)"
+      ],
+      "Usage": "Recyclable for Advanced Parts"
+    },
+    {
+      "Name": "Bicycle Pump",
+      "Description": "Residential item. Safe to recycle.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Canister (x4)",
+        "Metal Parts (x10)"
+      ],
+      "Usage": "Recyclable for Metal/Canister"
+    },
+    {
+      "Name": "Diving Goggles",
+      "Description": "Common rubber item. Safe to recycle.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Rubber Parts (x12)"
+      ],
+      "Usage": "Recyclable for Rubber"
+    },
+    {
+      "Name": "ARC Coolant",
+      "Description": "ARC liquid component. Highly concentrated for recycling.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Chemicals (x16)"
+      ],
+      "Usage": "Recyclable for Chemicals"
+    },
+    {
+      "Name": "ARC Synthetic Resin",
+      "Description": "ARC polymer component.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Plastic Parts (x14)"
+      ],
+      "Usage": "Recyclable for Plastic"
+    },
+    {
+      "Name": "ARC Thermo Lining",
+      "Description": "ARC fabric component.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Fabric (x16)"
+      ],
+      "Usage": "Recyclable for Fabric"
+    },
+    {
+      "Name": "ARC Flex Rubber",
+      "Description": "ARC rubber component.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Rubber Parts (x16)"
+      ],
+      "Usage": "Recyclable for Rubber"
+    },
+    {
+      "Name": "ARC Performance Steel",
+      "Description": "ARC metal component.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "Metal Parts (x12)"
+      ],
+      "Usage": "Recyclable for Metal"
+    },
+    {
+      "Name": "Damaged ARC Powercell",
+      "Description": "A damaged energy cell from an ARC.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "ARC Alloy (x5)",
+        "Metal Parts (x5)"
+      ],
+      "Usage": "Recyclable for ARC/Metal"
+    },
+    {
+      "Name": "Burned ARC Circuitry",
+      "Description": "Damaged electronic core from an ARC.",
+      "Parents": [
+        "None (Primarily recycled)"
+      ],
+      "Children": [
+        "ARC Circuitry (x1)",
+        "Wires (x5)"
+      ],
+      "Usage": "Recyclable for ARC Circuitry"
+    },
+    {
+      "Name": "Raider Hatch Key",
+      "Description": "Used to open Raider Extraction Hatches.",
+      "Parents": [
+        "Extraction Hatches"
+      ],
+      "Children": [
+        "None (Cannot be recycled)"
+      ],
+      "Usage": "Key Item"
+    },
+    {
+      "Name": "Buried City Town Hall Key",
+      "Description": "Key for a specific location in the Buried City.",
+      "Parents": [
+        "Town Hall Door"
+      ],
+      "Children": [
+        "None (Cannot be recycled)"
+      ],
+      "Usage": "Key Item"
+    }
+    // Note: The total list is now over 50 items and is considered comprehensive for the core game loop.
+  ]
+}
